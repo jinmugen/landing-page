@@ -1,0 +1,28 @@
+body{
+    background-image: url("miami.jpg");
+    background-size:100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+.heading{
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #322a2a;
+    color: #f9faf8;
+    font-family: 'Nosifer', cursive;
+}
+.heading .link{
+    display:flex;
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
