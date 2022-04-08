@@ -62,10 +62,10 @@ h2{
   font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1;
   margin: 0;
-  max-width: fit-content;
-  min-height: 44px;
+  max-width:max-content;
+  min-height: 10px;
   min-width: 10px;
   outline: none;
   overflow: hidden;
@@ -92,7 +92,7 @@ h2{
     background-color: rgba(0, 0, 0, 0.5);
     color: #f9faf8;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Nosifer', sans-serif;
 }
 .section-2 .options{
     display: flex;
@@ -100,14 +100,16 @@ h2{
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
     color: #f9faf8;
+    padding-bottom: 50px;
 }
 ul{
     display:flex;
     justify-content: space-evenly;
     align-items: baseline;
     list-style-type: none;
-    gap:100px;
+    gap: 8%;
     font-size: 18px;
+    font-family: 'Nosifer';
 }
 .section-2 .content2 .boys{
     max-width: 250px;
@@ -124,7 +126,44 @@ ul{
     flex-direction: column;
     align-items: center;
 }
+.section-3 .tyson{
+    padding-left: 40%;
+    font-size: 24px;
+    font-family: 'Roboto';
+}
 q{
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
+    padding-bottom: 10px;
+}
+.section-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.section-4 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    background-color:#875eca;
+    border: solid #222;
+    font-family: 'Roboto';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-basis: 50%;
+    border-radius: 10px;
+}
+footer{
+    background-color: #322a2a;
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    font-family: 'Roboto';
+    font-size: 12px;
+    align-items:center;
+    color: #f9faf8;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
